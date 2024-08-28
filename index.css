@@ -1,0 +1,26 @@
+
+header {background: whitesmoke;width:100%;position: fixed;z-index: 999;display: flex;justify-content: space-between;}
+.logo {text-decoration: none;color: #3a6cf4;text-transform: uppercase; font-weight: 900;font-size: 1.8em;padding: 20px}
+.navigation a{color:#3a6cf4;text-decoration: none;font-size: 1.5em;font-weight: 1000;padding-right: 30px}
+.navigation a:hover{color: #601;}
+section {padding: 100px 50px;}
+.min {width: 100%;min-height: 100vh;display: flex;align-items: center;background: url("تصوير-العقارات-7.webp")
+no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
+.min h2{color: violet ;font-size: 1.4em;font-weight: 500;}
+.min h2 span{color: chartreuse ;font-size: 3em;font-weight: 600;display: inline-block;margin-top: 10px}
+ h3 {color: #fff;font-size: 2em;font-weight: 700;letter-spacing: 1px;margin-top: 10px;margin-bottom: 30px}
+.main-btn {color: #fff;background-color: #3a6cf4;text-decoration: none;font-size: 1.1em;font-weight: 600;
+ display: inline-block;padding: 0.9375em 2.1875em;letter-spacing: 1px;border-radius: 15px;margin-bottom: 40px;
+transition: 0.7s ease;}
+.main-btn:hover {background-color: #0a49f6;transform: scale(1.1)}
+.title{display: flex;justify-content: center;color: #3a6cf4;font-size: 2.2em;font-weight: 800;
+margin-bottom: 30px;}
+.content {display: flex;justify-content: center;flex-direction: row;
+flex-wrap: wrap;}
+.card {background-color: #fff;width: 21.25em;box-shadow: 0 5px 25px ;rgba(111/15%);border-radius: 10px;padding: 25px;
+margin: 30px;transition: 0.7s ease;}
+.card:hover {transform: scale(1.1);}
+.contact .icon{font-size: 4.5em}
+.contact .info{color: #000}
+.contact .info p {font-size: 1.5em;}
+body {color: red;min-height: 200px;min-width: 200px;}
